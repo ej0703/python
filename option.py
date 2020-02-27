@@ -1,0 +1,20 @@
+import turtle
+turtle.speed(4)
+turtle.pensize(5)
+turtle.color('black', 'pink')
+turtle.begin_fill()
+for i in range(4): #사각형
+    turtle.forward(200)
+    turtle.left(90)
+turtle.end_fill()
+turtle.penup()
+turtle.goto(0, -100)
+turtle.write("speed는 4, pensize 5, color는 black&pink")
+turtle.forward(200)
+turtle.reset() #다시 시작, 전부 reset
+turtle.color('red','blue')
+turtle.begin_fill()
+turtle.circle(100)
+turtle.end_fill()
+turtle.goto(0, -100)
+turtle.write("circle()")

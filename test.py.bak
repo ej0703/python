@@ -1,0 +1,6 @@
+sum=0
+for i in range(4):
+	n=int(input("%d번째 숫자: "%(i+1)))
+	sum +=n
+
+print("합계=",sum)

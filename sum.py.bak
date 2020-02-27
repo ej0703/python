@@ -1,0 +1,10 @@
+nums=str(input())
+
+A=nums.split(',')
+
+result=0
+while A:
+	a=A.pop()
+	result += int(a)
+
+print(result)
